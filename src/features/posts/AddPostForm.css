@@ -1,0 +1,49 @@
+.AddPostForm-section {
+  padding: 1rem;
+}
+
+.AddPostForm-section .AddPostForm-title {
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+
+  padding-left: 0;
+}
+
+.AddPostForm-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.postTitle {
+  font-weight: bold;
+}
+
+.postContent {
+  height: 10rem;
+}
+
+.postTitle,
+.postContent {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.AddPostForm-section form button {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #ccc;
+  }
+
+  &:active {
+    background-color: #333;
+    color: white;
+  }
+}

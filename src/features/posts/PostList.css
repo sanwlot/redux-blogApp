@@ -1,0 +1,22 @@
+section.PostsList {
+  max-width: 600px;
+}
+
+section.PostsList h2 {
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+section.PostsList article {
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+section.PostsList article h3 {
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
